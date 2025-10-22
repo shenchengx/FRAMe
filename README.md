@@ -42,7 +42,7 @@ python scripts/eval-NoPrompt.py
 ```
 
 ## 数据集说明
-数据集已经过预处理，包含4个JSON文件。详见 `data/README.md`
+数据集已经过预处理，包含4个JSON文件。详见release中datasets.zip。
 
 
 ## 许可证
