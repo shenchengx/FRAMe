@@ -1,22 +1,23 @@
 # FRAMe
 
-## 简介
-本项目提供了一套完整的骨折风险预测模型评估对比系统，支持大语言模型和传统机器学习模型的性能对比。
+## Introduction
+This project provides a comprehensive fracture risk prediction model evaluation and comparison system, supporting performance comparison between large language models and traditional machine learning models.
 
-## 环境要求
+## Environment Requirements
 - Python 3.8+
-- CUDA 11.0+ (用于GPU加速)
-- 详见 requirements.txt
+- CUDA 11.0+ (for GPU acceleration)
+- For details, see requirements.txt
 
-## 安装
+## Installation
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## 使用方法
+## Usage
 
-### 1. 配置路径
-在运行脚本前，请修改以下配置：
+### 1. Configure Paths
+Before running the scripts, please modify the following configurations:
 
 ```python
 self.model_configs = {
@@ -32,18 +33,20 @@ self.data_paths = {
 }
 ```
 
-### 2. 运行评估
+### 2. Run Evaluation
 ```bash
-# 带Prompt版本
+# With Prompt version
 python scripts/eval-all.py
 
-# 无Prompt版本
+# Without Prompt version
 python scripts/eval-NoPrompt.py
 ```
 
-## 数据集说明
-数据集已经过预处理，包含4个JSON文件。详见release中datasets.zip。
+## Dataset Description
+The dataset has been preprocessed and contains 4 JSON files. For details, see datasets.zip in the release.
 
+## Medical Guidance Evaluation
+The medical guidance section is directly evaluated through the llama-factory framework. (GitHub link: https://github.com/hiyouga/LLaMA-Factory)
 
 ## 许可证
 MIT License
