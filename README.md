@@ -52,7 +52,7 @@ python scripts/eval-NoPrompt.py
 ```
 
 ## Dataset Description
-The dataset has been preprocessed and contains 4 JSON files. For details, see datasets.zip in the release.
+The dataset has been preprocessed and contains 4 JSON files. For details, see dataset.zip in the release.
 
 ## Medical Guidance Evaluation
 The medical guidance section is directly evaluated through the llama-factory framework. (GitHub link: https://github.com/hiyouga/LLaMA-Factory)
