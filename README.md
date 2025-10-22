@@ -6,6 +6,12 @@ Diabetes compromises bone health through reduced bone mineral density, altered m
 ## Introduction
 This repository provides a comprehensive fracture risk prediction model evaluation and comparison system, supporting performance comparison between large language models and traditional machine learning models.
 
+## LLM
+The following large language models are used in this study and require fine-tuning as described in the paper before evaluation:
+- DeepSeek-R1-Distill-Qwen-7B: [Model link on ModelScope](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B/summary)
+- Qwen2.5-7B-Instruct: [Model link on ModelScope](https://www.modelscope.cn/models/qwen/Qwen2.5-7B-Instruct/summary)
+- Baichuan2-7B-Base: [Model link on ModelScope](https://www.modelscope.cn/models/baichuan-inc/Baichuan2-7B-Base/summary)
+
 ## Environment Requirements
 - Python 3.8+
 - CUDA 11.0+ (for GPU acceleration)
