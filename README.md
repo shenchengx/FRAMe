@@ -18,7 +18,6 @@ pip install -r requirements.txt
 ### 1. 配置路径
 在运行脚本前，请修改以下配置：
 
-**eval-all.py** (第44-58行):
 ```python
 self.model_configs = {
     "Model_1": {
